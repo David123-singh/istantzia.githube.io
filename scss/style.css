@@ -5,6 +5,10 @@ body {
   transition: .4s;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 *::-webkit-scrollbar {
   width: 4px;
   border-radius: 100px;
@@ -1052,4 +1056,12 @@ body {
   text-align: center;
   color: var(--primary-text);
   opacity: 0.8;
+}
+
+.hello-bg-mobile {
+  display: none;
+}
+
+.mail-bg-mobile {
+  display: none;
 }

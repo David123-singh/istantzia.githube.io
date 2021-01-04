@@ -9,4 +9,311 @@
     width: 100%;
     margin-top: 17pc;
   }
+  .like-home-sec {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .banner-top-sec .banner-inner {
+    flex-wrap: wrap;
+  }
+  .banner-top-sec .banner-inner .banner-inner-left {
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  .banner-top-sec .banner-inner .banner-inner-left .banner-btn {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .banner-top-sec .banner-inner .banner-inner-right {
+    width: 100%;
+  }
+  .why-insta-sec {
+    margin-top: 120px;
+  }
+  .why-insta-sec .inner-container {
+    padding: 0px 60px;
+  }
+  .why-insta-sec .why-insta-h4 {
+    font-size: 50px;
+    margin-bottom: 5px;
+  }
+  .why-insta-sec .why-insta-subheading {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .why-insta-point {
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  .why-insta-point .insta-point-item {
+    max-width: calc(33.33% - 40px);
+    margin-right: 60px;
+    margin-bottom: 40px;
+  }
+  .why-insta-point .insta-point-item:nth-child(3n + 3) {
+    margin-right: 0px;
+  }
+  .like-home-sec {
+    margin-top: 40px;
+    width: calc(100% - 120px);
+  }
+  .like-home-sec:before {
+    max-height: 100%;
+    bottom: 3px;
+  }
+  .like-home-sec .like-home-contant {
+    bottom: 40px;
+  }
+  .like-home-sec .like-home-contant .like-home-heading {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 0px;
+  }
+  .like-home-sec .like-home-contant .like-home-txt {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .choose-plan-sec {
+    margin-top: 160px;
+  }
+  .choose-plan-sec .plan-heading {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .choose-plan-sec .plan-subheading {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 5px;
+  }
+  .tab-sec {
+    margin-top: 30px;
+  }
+  .tab-sec .tab-links-sec .tab-link {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .tab-sec .tab-links-sec .tab-link .non-avtive-icon, .tab-sec .tab-links-sec .tab-link .avtive-icon {
+    width: 30px;
+  }
+  .tab-sec .tab-contant .tab-contant-item .plan-card {
+    padding: 40px 35px;
+  }
+  .tab-sec .tab-contant .tab-contant-item .plan-card .plan-inner-card .plan-inner-card-left {
+    max-width: 200px;
+    margin-right: 60px;
+  }
+  .tab-sec .tab-contant .tab-contant-item .plan-card .plan-inner-card .plan-inner-card-left .plan-name {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .tab-sec .tab-contant .tab-contant-item .plan-card .plan-inner-card .plan-inner-card-left .plan-free {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .tab-sec .tab-contant .tab-contant-item .plan-card .plan-inner-card .plan-inner-card-right {
+    max-width: calc(100% - 260px);
+  }
+  .tab-sec .tab-contant .tab-contant-item .plan-card .plan-inner-card .plan-inner-card-right .plan-list-sec li {
+    margin-right: 0px;
+    max-width: 100%;
+    margin-bottom: 8px;
+  }
+  .tab-sec .tab-contant .tab-contant-item .plan-card .plan-inner-card .plan-inner-card-right .plan-list-sec li:nth-child(2n + 1) {
+    margin-right: 0px;
+    max-width: 100%;
+  }
+  .contact-sec {
+    margin-top: 120px;
+  }
+  .contact-sec .contact-heading {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .contact-sec .subheading {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+  .contact-sec .contact-card .contact-card-left {
+    max-width: 100%;
+  }
+  .contact-sec .contact-card .contact-card-right {
+    width: 100%;
+    position: relative;
+  }
+  .contact-sec .contact-card .contact-card-right .mail-bg, .contact-sec .contact-card .contact-card-right .mail-bg-mobile {
+    width: 70%;
+    margin-top: 5%;
+  }
+  .contact-sec .contact-card .contact-card-right .mail-bg {
+    display: none;
+  }
+  .contact-sec .contact-card .contact-card-right .hello-bg-mobile {
+    position: absolute;
+    right: -60px;
+    top: 0;
+  }
+  .contact-sec .contact-card .hello-bg-mobile {
+    display: flex;
+  }
+  .contact-sec .contact-card .mail-bg-mobile {
+    display: flex;
+  }
+  .contact-sec .contact-card .hello-bg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container, .inner-container {
+    padding: 0px 0px;
+  }
+  .banner-top-sec .banner-inner .banner-inner-left {
+    max-width: 300px;
+  }
+  .banner-top-sec .banner-inner .banner-inner-left .banner-heading {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .why-insta-sec {
+    margin-top: 80px;
+  }
+  .why-insta-sec .inner-container {
+    padding: 0px 24px;
+  }
+  .why-insta-sec .why-insta-h4 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .why-insta-sec .why-insta-subheading {
+    line-height: 20px;
+  }
+  .why-insta-point {
+    margin-top: 40px;
+  }
+  .why-insta-point .insta-point-item {
+    max-width: 100%;
+    margin-right: 0px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .why-insta-point .insta-point-item .insta-item-contant {
+    padding-left: 20px;
+  }
+  .why-insta-point .insta-point-item .insta-item-contant .insta-item-heading {
+    font-size: 16px;
+    margin-top: 0px;
+  }
+  .why-insta-point .insta-point-item:nth-child(2n + 2) .insta-point-img {
+    order: 1;
+  }
+  .why-insta-point .insta-point-item:nth-child(2n + 2) .insta-item-contant {
+    padding-left: 0px;
+    padding-right: 20px;
+  }
+  .like-home-sec {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .like-home-sec .like-home-img {
+    border-radius: 0px;
+  }
+  .like-home-sec .like-home-contant {
+    bottom: 20px;
+  }
+  .like-home-sec .like-home-contant .like-home-heading {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .like-home-sec .like-home-contant .like-home-txt {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .choose-plan-sec {
+    margin-top: 80px;
+    padding: 0px 20px;
+  }
+  .choose-plan-sec .plan-heading {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .choose-plan-sec .plan-subheading {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .tab-sec .tab-links-sec {
+    padding-bottom: 13px;
+  }
+  .tab-sec .tab-links-sec .tab-link {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0px 30px;
+  }
+  .tab-sec .tab-links-sec .tab-link.active:before {
+    height: 3px;
+    width: 100%;
+    bottom: -13px;
+  }
+  .tab-sec .tab-links-sec .tab-link .avtive-icon, .tab-sec .tab-links-sec .tab-link .non-avtive-icon {
+    width: 24px;
+    margin-right: 8px;
+  }
+  .tab-sec .tab-contant {
+    margin-top: 40px;
+  }
+  .tab-sec .tab-contant .tab-contant-item .plan-card {
+    padding: 20px 24px;
+  }
+  .tab-sec .tab-contant .tab-contant-item .plan-card:before {
+    left: 20px;
+    height: 4px;
+  }
+  .tab-sec .tab-contant .tab-contant-item .plan-card .plan-inner-card {
+    justify-content: unset;
+    flex-wrap: wrap;
+  }
+  .tab-sec .tab-contant .tab-contant-item .plan-card .plan-inner-card .plan-inner-card-left {
+    max-width: 100%;
+    margin-right: 0px;
+  }
+  .tab-sec .tab-contant .tab-contant-item .plan-card .plan-inner-card .plan-inner-card-left .plan-name {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .tab-sec .tab-contant .tab-contant-item .plan-card .plan-inner-card .plan-inner-card-left .plan-free {
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 6px;
+  }
+  .tab-sec .tab-contant .tab-contant-item .plan-card .plan-inner-card .plan-inner-card-right {
+    max-width: 100%;
+    margin-top: 10px;
+  }
+  .contact-sec {
+    margin-top: 80px;
+  }
+  .contact-sec .contact-heading {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .contact-sec .subheading {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .contact-sec .contact-card {
+    margin: 0px 20px;
+    margin-top: 30px;
+    padding: 24px;
+  }
+  .contact-sec .contact-card .contact-card-right .hello-bg-mobile {
+    right: -20px;
+    width: 100px;
+  }
+  .contact-sec .contact-card .contact-card-right .mail-bg-mobile {
+    margin-top: 35%;
+  }
 }
