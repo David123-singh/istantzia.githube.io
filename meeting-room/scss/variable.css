@@ -1,0 +1,18 @@
+:root{
+    --font-family-heading: 'MuseoModerno', cursive;
+  
+    --bg-main:#FAF9FC;
+    --main-color: #303033;
+    --placeholder-color:#9880AF;
+
+    --login-bg:#fff;
+    --border-color: linear-gradient(90deg, rgba(255, 105, 158, 0.4) 0%, rgba(192, 54, 238, 0.4) 100%);
+   --blue-bg:#300F6A;
+   --white-color:#fff;
+   --bg-color2:#1C0640;
+}
+[data-theme="dark"]{
+    --main-color: #fff;
+    --login-bg:#1C0640;
+    --bg-color2:#fff;
+}

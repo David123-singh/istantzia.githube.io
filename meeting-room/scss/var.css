@@ -1,0 +1,80 @@
+:root{
+        --vietnam: 'Be Vietnam', sans-serif;
+        --museo: 'MuseoModerno', cursive; 
+        --inter: 'Inter', sans-serif;
+
+        /* text color */
+
+        --primary-text : #303033;
+        --white-text : #ffffff;
+        --black-text:#000000;
+        --tab-text :  #9880AF;
+        /* bg color */
+        --body-bg: #FAF9FC;
+        --white-bg: #ffffff;
+        --meet-input-bg:#FAFAFC;
+
+        /* font size */
+        --font-size8:8px;
+        --font-size9:9px;
+        --font-size10:10px;
+        --font-size11:11px;
+        --font-size12:12px;
+        --font-size13:13px;
+        --font-size14:14px;
+        --font-size15:15px;
+        --font-size16:16px;
+        --font-size17:17px;
+        --font-size18:18px;
+        --font-size19:19px;
+        --font-size20:20px;
+        --font-size21:21px;
+        --font-size22:22px;
+        --font-size23:23px;
+        --font-size24:24px;
+        --font-size25:25px;
+        --font-size26:26px;
+        --font-size30:30px;
+        --font-size60:60px;
+        --font-size80:80px;
+
+        /* line height */
+
+        --line-height14:14px;
+        --line-height16:16px;
+        --line-height18:18px;
+        --line-height20:20px;
+        --line-height22:22px;
+        --line-height24:24px;
+        --line-height25:25px;
+        --line-height26:26px;
+        --line-height28:28px;
+        --line-height30:30px;
+        --line-height32:32px;
+        --line-height35:35px;
+        --line-height40:40px;
+        --line-height47:47px;
+        --line-height64:64px;
+        --line-height70:70px;
+        --line-height80:80px;
+
+
+        /* button bg */
+        --btn-bg:linear-gradient(90deg, #FF699E 0%, #C036EE 100%), #000000;
+
+        /* btn shadow */
+        --btn-shadow:inset 0px 1px 3px rgba(255, 255, 255, 0.6);
+        --card-shadow :5px 10px 30px -10px rgba(150, 144, 156, 0.15);
+
+}
+.dark-mode{
+        --primary-text : #ffffff;
+        --white-text : #ffffff;
+        --black-text:#FFFFFF;
+        --tab-text :  #9880AF;
+
+
+        --body-bg: #300F6A;  
+        --white-bg: #1C0640;
+        --meet-input-bg:#300066;
+}

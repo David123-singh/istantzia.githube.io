@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="scss/owl.carousel.min.css">
+    <link rel="stylesheet" href="scss/variable.css">
+    <link rel="stylesheet" href="scss/meeting-room.css">
+</head>
+<body>
+    
+  <div class="meeting-room-outer">
+
+     <div class="speaker-crousel">
+            <div class="item">
+                <div class="meeting-img">
+                <img src="images/meeting1.svg" class="img-fluid w-100">
+                <div class="host-abs">Host</div>
+                <div class="meeting-title">
+                    <div class="host-name">
+                        <div class="mute-icon">
+                            <img src="images/mute.svg">
+                        </div>
+                        <p>Alfred Stanly</p>
+                    </div>
+                    <!-- <div class="view-more-icon">
+                        <img src="images/more_vertical.svg">
+                        <div class="view-drop">
+                            <a>Pin</a>
+                              <a class="active"> Mute</a>
+                              <a> Suspend</a>
+                              <a> Remove</a>
+                              <a> Chat Privately</a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+            <div class="item">
+                <div class="meeting-img">
+                    <img src="images/meeting1.svg" class="img-fluid w-100">
+                    <div class="host-abs">Host</div>
+                    <div class="meeting-title">
+                        <div class="host-name">
+                            <div class="mute-icon">
+                                <img src="images/mute.svg">
+                            </div>
+                            <p>Alfred Stanly</p>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="meeting-img">
+                    <img src="images/meeting1.svg" class="img-fluid w-100">
+                    <div class="host-abs">Host</div>
+                    <div class="meeting-title">
+                        <div class="host-name">
+                            <div class="mute-icon">
+                                <img src="images/mute.svg">
+                            </div>
+                            <p>Alfred Stanly</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="meeting-img">
+                    <img src="images/meeting1.svg" class="img-fluid w-100">
+                    <div class="host-abs">Host</div>
+                    <div class="meeting-title">
+                        <div class="host-name">
+                            <div class="mute-icon">
+                                <img src="images/mute.svg">
+                            </div>
+                            <p>Alfred Stanly</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="meeting-img">
+                    <img src="images/meeting1.svg" class="img-fluid w-100">
+                    <div class="host-abs">Host</div>
+                    <div class="meeting-title">
+                        <div class="host-name">
+                            <div class="mute-icon">
+                                <img src="images/mute.svg">
+                            </div>
+                            <p>Alfred Stanly</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="arrow-outer">
+                <div class="left-arrow">
+                    <img src="images/left-arrow.svg">
+                </div>
+                <div class="right-arrow">
+                    <img src="images/left-arrow.svg">
+                </div>
+            </div>
+     </div>
+
+     <div class="speaker-main">
+         <img src="images/video-pic.svg" class="bg-video">
+         <img src="images/samll-video.svg" class="small-video">
+         <div class="speaker-footer">
+         <div class="footer">
+            <div class="footer-left">
+                <div class="footer-icon arrow-position" onclick="popupFunction()">
+                    <img src="images/down-arrow.svg">
+                    <p>Share screen</p>
+                </div>
+                <div class="footer-icon mobile-none">
+                  <img src="images/footer1.svg">
+                  <p>Share screen</p>
+              </div>
+                <div class="footer-icon">
+                  <img src="images/footer2.svg">
+                  <p>Share screen</p>
+              </div>
+            </div>
+
+            <div class="footer-center">
+              <div class="footer-fixed-icon blue-btn desk-none">
+                  <img src="images/rotate.svg">
+              </div>
+                <div class="footer-fixed-icon blue-btn">
+                    <img src="images/speaker.svg">
+                </div>
+                <div class="footer-fixed-icon red-btn">
+                  <img src="images/call.svg">
+              </div>
+              <div class="footer-fixed-icon blue-btn">
+                    <img src="images/icon_video.svg">
+                </div>
+            </div>
+
+            <div class="footer-left">
+              <div class="footer-icon">
+                  <img src="images/chat.svg">
+                  <p>Share screen</p>
+              </div>
+              <div class="footer-icon" onclick="openNav()">
+                <img src="images/participation.svg">
+                <p>Share screen</p>
+            </div>
+            <div class="footer-icon desk-none">
+                <img src="images/cross.svg">
+            </div>
+          </div>
+        </div>
+    </div>
+     </div>
+     
+
+  <!----------------mobile popup---------------->   
+     <div class="meeting-popup">
+         <div class="popup-inner">
+             <p>Pin</p>
+             <img src="images/icon-pin.svg">
+         </div>
+         <div class="popup-inner">
+            <p>Mute</p>
+            <img src="images/mute1.svg">
+        </div>
+        <div class="popup-inner">
+            <p>Chat privately</p>
+            <img src="images/popup-icon3.svg">
+        </div>
+        <div class="popup-inner">
+            <p>Suspend</p>
+            <img src="images/popup-icon4.svg">
+        </div>
+        <div class="popup-inner active">
+            <p>Remove</p>
+            <img src="images/popup-icon5.svg">
+        </div>
+     </div>
+
+   <!----------------end mobile popup---------------->
+
+     <!---------------------side navibar---------->
+  <div id="mySidenav" class="sidenav">
+      <div class="meeting-detail-header">
+          <h2>meeting details</h2>
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/close-icon.svg"></a>
+      </div>
+    
+      <div class="meetin-tab">
+        <button class="tablinks" onclick="openCity(event, 'tab1')" id="defaultOpen"> <img src="images/participation.svg"> Participants</button>
+        <button class="tablinks" onclick="openCity(event, 'tab2')"> <img src="images/chat.svg"> Chat</button>
+      </div>
+
+      <div id="tab1" class="tabcontent">
+      <div class="user-detail-sec">
+      <div class="user-name-sec">
+          <div class="user-name">
+              <div class="user-img">
+                  <img src="images/user1.svg">
+              </div>
+              <p>Alfred Stanly</p>
+          </div>
+
+          <div class="user-icon-outer">
+              <div class="user-icon">
+                  <img src="images/user-icon1.svg">
+              </div>
+              <div class="user-icon">
+                <img src="images/user-icon2.svg">
+            </div>
+            <div class="user-icon active">
+                <img src="images/user-icon3.svg">
+            </div>
+          </div>
+      </div>
+
+      <div class="user-name-sec">
+        <div class="user-name">
+            <div class="user-img">
+                <img src="images/user2.svg">
+            </div>
+            <p>Charlie Sebastian</p>
+        </div>
+
+        <div class="user-icon-outer">
+            <div class="user-icon">
+                <img src="images/user-icon4.svg">
+            </div>
+            <div class="user-icon active">
+              <img src="images/user-icon2.svg">
+          </div>
+          <div class="user-icon">
+              <img src="images/user-icon3.svg">
+          </div>
+        </div>
+    </div>
+
+    <div class="user-name-sec">
+        <div class="user-name">
+            <div class="user-img">
+                <img src="images/user3.svg">
+            </div>
+            <p>Victor Lawrence</p>
+        </div>
+
+        <div class="user-icon-outer">
+            <div class="user-icon active">
+                <img src="images/user-icon4.svg">
+            </div>
+            <div class="user-icon">
+              <img src="images/user-icon2.svg">
+          </div>
+          <div class="user-icon">
+              <img src="images/user-icon3.svg">
+          </div>
+        </div>
+    </div>
+
+    <div class="user-name-sec">
+        <div class="user-name">
+            <div class="user-img">
+                <img src="images/user4.svg">
+            </div>
+            <p>Victor Lawrence</p>
+        </div>
+
+        <div class="user-icon-outer">
+            <div class="user-icon active">
+                <img src="images/user-icon4.svg">
+            </div>
+            <div class="user-icon">
+              <img src="images/user-icon2.svg">
+          </div>
+          <div class="user-icon">
+              <img src="images/user-icon3.svg">
+          </div>
+        </div>
+    </div>
+
+    <div class="user-name-sec">
+        <div class="user-name">
+            <div class="user-img">
+                <img src="images/user5.svg">
+            </div>
+            <p>Victor Lawrence</p>
+        </div>
+
+        <div class="user-icon-outer">
+            <div class="user-icon active">
+                <img src="images/user-icon4.svg">
+            </div>
+            <div class="user-icon">
+              <img src="images/user-icon2.svg">
+          </div>
+          <div class="user-icon">
+              <img src="images/user-icon3.svg">
+          </div>
+        </div>
+    </div>
+     </div>
+
+     <div class="tab-footer">
+        <button class="common-btn">Invite</button>
+        <button class="common-btn">Mute</button>
+        <button class="common-btn">Unmute All</button>
+        <button class="common-btn"><img src="images/view-more2.svg"></button>
+    </div>
+     </div>
+
+     <div id="tab2" class="tabcontent">
+       <div class="text-center mt20">
+           <p class="chat-para">Dec 10, 6:15 pm</p>
+       </div>
+
+       <div class="chat-outer-sec">
+        <p class="chat-para">Alfred Stanly</p>
+        <div class="chat-user">
+            <div class="chat-user-img">
+                <img src="images/user1.svg">
+            </div>
+            <div class="chat-msg">
+                <p>Hello Victor</p>
+            </div>
+            <div class="user-icon">
+                <img src="images/user-icon3.svg">
+                <div class="view-drop">
+                    <a>Reply</a>
+                      <a class="active"> Copy</a>
+                      <a> Edit</a>
+                      <a> Forward</a>
+                      <a> Delete</a>
+                </div>
+            </div>
+        </div>
+       </div>
+
+       <div class="chat-outer-sec float-right">
+        <p class="chat-para ml40">You</p>
+        <div class="chat-user">
+            <div class="user-icon">
+                <img src="images/user-icon3.svg">
+            </div>
+            <div class="chat-msg">
+                <p>Hello Alfred</p>
+            </div>
+           
+            <div class="chat-user-img">
+                <img src="images/user1.svg">
+            </div>
+        </div>
+       </div>
+
+       <div class="chat-outer-sec">
+        <p class="chat-para">Whats Up!</p>
+        <div class="chat-user">
+            <div class="chat-user-img">
+                <img src="images/user1.svg">
+            </div>
+            <div class="chat-msg">
+                <p>Hello Victor</p>
+            </div>
+            <div class="user-icon">
+                <img src="images/user-icon3.svg">
+            </div>
+        </div>
+       </div>
+
+
+       <div class="chat-footer">
+           <div class="chat-footer-input">
+               <textarea placeholder="Type a message"></textarea>
+               <img src="images/plus.svg" class="chat-plus">
+               <img src="images/emoji.svg" class="chat-emoji">
+           </div>
+
+           <button> <img src="images/send.svg"></button>
+       </div>
+
+     </div>
+
+    
+
+  </div>
+
+     <!-------------------end the side nave---------->
+      
+  </div>
+
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.right = "0px";
+    //   document.querySelector(".meeting-room-outer").style.marginRight = "400px";
+      document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.right = "-100%";
+    //   document.querySelector(".meeting-room-outer").style.marginRight= "0";
+      document.body.style.backgroundColor = "white";
+    }
+    </script>
+
+
+<script>
+    function openCity(evt, tabname) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(tabname).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+    </script>
+
+<script>
+    function popupFunction() {
+      var popup = document.querySelector(".meeting-popup");
+      popup.classList.toggle("show");
+    }
+</script>
+ 
+</body>
+</html>

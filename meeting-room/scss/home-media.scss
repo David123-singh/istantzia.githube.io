@@ -1,0 +1,15 @@
+@media screen and (max-width: 1200px){
+    .container, .inner-container{
+        padding: 0px 30px;
+    }
+    
+    .contact-sec {
+        .contact-card-right{
+            width: calc(100% - 480px);
+            .mail-bg{
+                        width: 100%;
+                        margin-top: 17pc;
+            }
+        }
+    }
+}

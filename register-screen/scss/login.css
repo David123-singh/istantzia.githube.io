@@ -1,0 +1,482 @@
+.bg-main {
+  background-color: var(--bg-main);
+}
+
+/*-----------common class------------------------*/
+.pt-0 {
+  padding-top: 0 !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+
+button:focus {
+  border: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.flex-item {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.opacity-6 {
+  opacity: 0.6;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.form-20 {
+  margin-top: 20px;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+/*-----------end the common class-------------------*/
+.common-para {
+  color: var(--main-color);
+  opacity: 0.8;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+
+.padding-100 {
+  padding: 40px 0 !important;
+}
+
+.login-inner .form-inner {
+  padding: 20px 20px 0;
+}
+
+.login-outer {
+  padding: 0 10px;
+}
+
+.login-main {
+  font-family: 'Be Vietnam', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  background-color: var(--login-bg);
+  -webkit-box-shadow: 0px 10px 20px -10px rgba(230, 224, 243, 0.9);
+          box-shadow: 0px 10px 20px -10px rgba(230, 224, 243, 0.9);
+  border-radius: 16px;
+  width: 100%;
+  padding: 40px 0 30px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.login-heading {
+  line-height: 30px;
+  color: var(--main-color);
+  text-align: center;
+  font-size: 24px;
+  font-family: 'MuseoModerno', cursive;
+  letter-spacing: -0.02em;
+}
+
+.input-border {
+  background: var(--border-color);
+  border-radius: 10px;
+  padding: 1px;
+  margin-top: 10px;
+}
+
+.input-border:first-child {
+  margin-top: 0 !important;
+}
+
+.dont-account {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 13px;
+  display: block;
+  text-align: center;
+  line-height: 20px;
+}
+
+.dont-account span {
+  font-weight: bold;
+}
+
+.icon-main img {
+  margin-bottom: 20px;
+}
+
+.btn-150 {
+  width: 120px;
+  margin: 30px auto 0;
+}
+
+.email-sent {
+  padding: 0 30px;
+}
+
+.password-strenght {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.password-strenght ul {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 10px;
+}
+
+.password-strenght ul li {
+  list-style-type: none;
+  width: 25%;
+  height: 4px;
+  margin-right: 4px;
+}
+
+.password-strenght ul li:last-child {
+  margin-right: 0;
+}
+
+.password-strenght span {
+  color: var(--main-color);
+  font-size: 11px;
+  opacity: 0.8;
+}
+
+.s-clr1 {
+  background-color: #FA6060;
+}
+
+.s-clr2 {
+  background-color: #FF9963;
+}
+
+.s-clr3 {
+  background-color: #F6C960;
+}
+
+.s-clr4 {
+  background-color: #99F360;
+}
+
+/*---------registration--------------------*/
+.register-head p {
+  font-size: 16px;
+  color: var(--main-color);
+  margin-top: 5px;
+  line-height: 20px;
+}
+
+.register-head p span {
+  color: #EA42A4;
+}
+
+.registration-name {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--main-color);
+  letter-spacing: -0.02em;
+}
+
+.registration-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.registration-btn .common-btn {
+  width: 160px;
+  height: 50px;
+}
+
+.registration-btn .back-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+  background: transparent;
+  color: var(--main-color);
+}
+
+.registration-btn .back-btn img {
+  margin-right: 12px;
+}
+
+/*-----------otp code----------*/
+.otp-code {
+  padding: 12px 15px;
+  border-radius: 10px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.otp-code .otp-input {
+  max-width: 28%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 28%;
+          flex: 0 0 28%;
+  position: relative;
+  padding-left: 10px;
+}
+
+.otp-code .otp-input input {
+  width: 100%;
+  font-size: 16px;
+  color: var(--main-color);
+  font-weight: 400;
+  font-family: 'Be Vietnam', sans-serif;
+  line-height: 30px;
+}
+
+.otp-code .otp-input input::-webkit-input-placeholder {
+  color: #9880AF;
+  opacity: 0.6;
+}
+
+.otp-code .otp-input input:-ms-input-placeholder {
+  color: #9880AF;
+  opacity: 0.6;
+}
+
+.otp-code .otp-input input::-ms-input-placeholder {
+  color: #9880AF;
+  opacity: 0.6;
+}
+
+.otp-code .otp-input input::placeholder {
+  color: #9880AF;
+  opacity: 0.6;
+}
+
+.otp-code .otp-input .das-icon {
+  position: absolute;
+  right: 0;
+  color: var(--main-color);
+  opacity: 0.4;
+  font-size: 18px;
+}
+
+.otp-code .otp-input label {
+  color: #F05DB2;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+/*--------end the otp code----------------*/
+.reg-abs-img {
+  position: absolute;
+  left: 0;
+  top: 54%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.reg-select {
+  width: 100%;
+  display: block;
+  font-size: 16px;
+  color: var(--main-color);
+  font-weight: 400;
+  font-family: 'Be Vietnam', sans-serif;
+  text-align: left;
+  line-height: 30px;
+  padding-left: 30px;
+  background-image: url(../images/select-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: transparent;
+}
+
+.country-dropdown {
+  position: absolute;
+  background: var(--dropdown-bg);
+  width: 100%;
+  -webkit-box-shadow: 5px 10px 30px -10px rgba(150, 144, 156, 0.15);
+          box-shadow: 5px 10px 30px -10px rgba(150, 144, 156, 0.15);
+  border-radius: 16px;
+  padding: 15px;
+  top: 100%;
+  left: 0;
+  max-height: 240px;
+  overflow: auto;
+  z-index: 99;
+}
+
+.country-dropdown .dropdownt-cont {
+  display: block;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 6px;
+  color: var(--main-color);
+}
+
+.country-dropdown .dropdownt-cont img {
+  margin-right: 15px;
+}
+
+.country-dropdown::-webkit-scrollbar {
+  width: 4px;
+}
+
+.country-dropdown::-webkit-scrollbar-track {
+  background: rgba(152, 128, 175, 0.2);
+  border-radius: 100px;
+}
+
+.country-dropdown::-webkit-scrollbar-thumb {
+  background: rgba(152, 128, 175, 0.6);
+  border-radius: 100px;
+}
+
+.code-otp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.code-otp .input-border {
+  width: 46px;
+  margin: 0;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+
+.code-otp .input-border:last-child {
+  margin-right: 0;
+}
+
+.code-otp .input-border input {
+  width: 100%;
+  background-color: var(--login-bg);
+  border-radius: 8px;
+  height: 65px;
+  font-size: 24px;
+  color: var(--main-color);
+  text-align: center;
+  padding: 10px;
+}
+
+/*---------end registration--------------------*/
+@media only screen and (min-width: 768px) {
+  .login-main {
+    min-width: 600px;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 60px;
+  }
+  .login-inner {
+    max-width: 375px;
+    margin: auto;
+  }
+  .padding-100 {
+    padding: 100px 0 !important;
+  }
+  .login-heading {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .mb-20 {
+    border-bottom: 30px;
+  }
+  .mt-20 {
+    margin-top: 30px;
+  }
+  .input-border {
+    margin-top: 15px;
+  }
+  .dont-account {
+    font-size: 16px;
+  }
+  .login-inner .form-inner {
+    padding: 20px 8px 0;
+  }
+  .icon-main img {
+    margin-bottom: 30px;
+  }
+  .btn-150 {
+    width: 150px;
+    margin: 40px auto 0;
+  }
+  .email-sent {
+    padding: 0;
+  }
+  .password-strenght {
+    margin-top: 25px;
+  }
+  .password-strenght span {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=login.css.map */
